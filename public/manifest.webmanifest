@@ -1,0 +1,13 @@
+{
+  "name": "Working-List",
+  "short_name": "Working-List",
+  "description": "Danh sách công việc cá nhân — ghi nhanh, tìm lẹ, xử lý gọn.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#635bff",
+  "lang": "vi",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
