@@ -1,4 +1,4 @@
-# Working-List V1.0.0
+# Working-List V1.0.1
 
 Web app danh sách công việc cá nhân theo hướng nhập nhanh, tìm kiếm tức thì và đổi trạng thái chỉ với một lần bấm.
 

@@ -255,7 +255,7 @@ export default function Home() {
         </section>
       </section>
 
-      <footer><span>Cập nhật: 19/08/2026</span><strong>© 2026 HuyVo</strong><span>Working-List V1.0.0</span></footer>
+      <footer><span>Cập nhật: 19/08/2026</span><strong>© 2026 HuyVo</strong><span>Working-List V1.0.1</span></footer>
 
       {modalOpen && <div className="modal-backdrop" role="presentation"><section className="modal-card" role="dialog" aria-modal="true" aria-labelledby="task-modal-title"><div className="modal-header"><div><p className="eyebrow">Công việc</p><h2 id="task-modal-title">{editing ? "Chỉnh sửa công việc" : "Thêm công việc mới"}</h2></div><button className="icon-button" type="button" onClick={() => setModalOpen(false)} aria-label="Đóng"><Icon name="x" /></button></div><form onSubmit={saveTask} className="task-form">
         <label className="full-field"><span>Nội dung công việc <b>*</b></span><input autoFocus value={draft.title} onChange={(event) => setDraft({ ...draft, title: event.target.value })} placeholder="Nhập nội dung cần làm" required /></label>
