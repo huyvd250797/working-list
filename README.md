@@ -1,4 +1,4 @@
-# Working-List V1.0.1
+# Working-List V1.0.3
 
 Web app danh sách công việc cá nhân theo hướng nhập nhanh, tìm kiếm tức thì và đổi trạng thái chỉ với một lần bấm.
 
@@ -73,9 +73,12 @@ Kết quả nằm trong thư mục `out`.
 1. Đẩy source lên GitHub.
 2. Trong Vercel chọn **Add New Project** và import repository.
 3. File `vercel.json` đã cấu hình sẵn:
-   - Build command: `npm run build:static`
-   - Output directory: `out`
+   - Build command: `npm run build:next`
+   - Framework preset: `Next.js`
+   - Output directory: để trống (Vercel dùng mặc định `.next`)
 4. Bấm **Deploy**.
+
+Nếu project Vercel cũ đang đặt **Output Directory** là `out`, vào **Settings → Build and Deployment**, xóa giá trị này để ô trống, lưu lại rồi chọn **Redeploy** và bỏ chọn **Use existing Build Cache**. Không đặt `out` cho bản Vercel vì Next.js Runtime cần các manifest trong thư mục `.next`.
 
 ## Dữ liệu được lưu ở đâu?
 
